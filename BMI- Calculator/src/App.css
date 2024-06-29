@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+  background-color: #574b90;
+}
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.BMI-Calculator{
+  background-color: #786fa6;
+  height: 500px;
+  width: 800px;
+  color:#fff;
+  border-radius: 10px;
+  /* text-align: center; */
+  display: flex;
+  
+
+}
+.box {
+  width:350px;
+  background-image: url("assets/yoga.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.data{
+  flex:1;
+  padding:15px;
+}
+.data h1{
+  font-weight:500px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color:#fff;
+}
+ .input-container{
+  
+  margin-bottom: 15px;
+}
+label{
+  display:block;
+  margin-bottom: 5px;
+  color:#000;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  color:#888;
+  border:1px solid ;
+  margin-bottom: 10px;
+  border-radius: 4px;
+} 
+button{
+  background-color: rgb(101, 18, 195);
+  color:#fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;  
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #888;
+} 
+
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #F8EFBA;
+}
+
+.result p{
+  margin: 10px 0;
+  color:#F8EFBA;
+}
+
+.result p:first-child{
+  font-weight: bold;
+}
+.error{
+  color:aqua;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.data button:nth-of-type(2){
+  background-color:#88a725;
+  color:#000;
+  margin-left: 10px;
+}
